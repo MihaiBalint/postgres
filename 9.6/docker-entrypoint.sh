@@ -73,7 +73,7 @@ if [ "$1" = 'postgres' ]; then
 				WARNING: No password has been set for the database.
 				         This will allow anyone with access to the
 				         Postgres port to access your database. In
-				         Docker's default configuration, this is
+				         Docker''s default configuration, this is
 				         effectively any other container on the same
 				         system.
 
