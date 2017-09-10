@@ -8,7 +8,7 @@ RUN set -ex; \
 			gnupg2 \
 			dirmngr \
 		; \
-                apt-get install dist-upgrade -y --no-install-recommends; \
+                apt-get dist-upgrade -y --no-install-recommends; \
 		rm -rf /var/lib/apt/lists/*; \
 	fi
 
